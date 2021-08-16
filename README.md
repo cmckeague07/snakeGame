@@ -1,2 +1,2 @@
 # snakeGame
-Desktop application snake game developed using Java Fx. 
+Desktop application snake game developed using Java Swing. 
