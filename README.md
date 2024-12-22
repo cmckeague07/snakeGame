@@ -1,6 +1,7 @@
-DESCRIPTION
+# Snake Game
+A simple Snake Game built using Java Swing. The game features grid-based movement, dynamic snake growth, and collision detection.
 
-A simple Snake Game built using Java Swing. The game features grid-based movement, dynamic snake growth, and collision detection. This project demonstrates core Java programming concepts, including object-oriented design, event handling, and game loops.
+This project demonstrates core Java programming concepts, including object-oriented design, event handling, and game loops.
 
 Features
 
