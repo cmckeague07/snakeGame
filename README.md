@@ -3,76 +3,78 @@ A simple Snake Game built using Java Swing. The game features grid-based movemen
 
 This project demonstrates core Java programming concepts, including object-oriented design, event handling, and game loops.
 
+------------------------------------------------------------------------------
 Features
+------------------------------------------------------------------------------
 
 Classic Snake Mechanics:
 
-Grow the snake by eating apples.
+- Grow the snake by eating apples.
 
-Avoid collisions with walls and the snake’s own body.
+- Avoid collisions with walls and the snake’s own body.
 
 Grid-Based Movement:
 
-Apples and snake segments are positioned on a uniform grid.
+- Apples and snake segments are positioned on a uniform grid.
 
 Dynamic Gameplay:
 
-The snake grows longer with each apple consumed, increasing the challenge.
+- The snake grows longer with each apple consumed, increasing the challenge.
 
 How to Run
 
 Clone the repository:
 
-git clone <repository-url>
+- git clone <repository-url>
 
-Navigate to the project directory.
+- Navigate to the project directory.
 
 Compile the Java files:
 
-javac snakeMain.java
+- javac snakeMain.java
 
 Run the game:
 
-java snakeMain
+- java snakeMain
 
 Controls
 
 Arrow Keys:
 
-↑ Move Up
+- ↑ Move Up
 
-↓ Move Down
+- ↓ Move Down
 
-← Move Left
+- ← Move Left
 
-→ Move Right
+- → Move Right
 
 Gameplay
 
-The snake starts small and grows each time it eats a red apple.
+- The snake starts small and grows each time it eats a red apple.
 
 Avoid collisions with:
 
-The walls.
+- The walls.
 
-The snake’s own body.
+- The snake’s own body.
 
-The game ends when a collision occurs.
+- The game ends when a collision occurs.
 
 File Structure
 
 snakeMain.java:
 
-The main entry point of the application. Sets up the game window and initializes the game panel.
+- The main entry point of the application. Sets up the game window and initializes the game panel.
 
 Apple.java:
 
-Represents the apples in the game. Handles positioning and rendering.
+- Represents the apples in the game. Handles positioning and rendering.
 
 body.java:
 
-Represents individual segments of the snake’s body.
+- Represents individual segments of the snake’s body.
 
 gPanel.java:
 
-The core of the game, responsible for game logic, rendering, and user input handling.
+- The core of the game, responsible for game logic, rendering, and user input handling.
